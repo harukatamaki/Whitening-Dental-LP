@@ -338,6 +338,10 @@ li {
   margin-right: 5%;
 }
 
+.fea .__inner {
+  padding-top: 0;
+}
+
 .fea-wrap__ttl {
   text-align: center;
 }
@@ -761,16 +765,20 @@ footer {
 
 
 @media screen and (max-width: 1024px) {
+  .__sp {
+    display: none;
+  }
+
   .top {
-    height: 50vh;
+    height: 90vh;
     background-position: 70%;
   }
 
   .top-wrap__left {
     width: 55%;
     position: absolute;
-    bottom: 52%;
-    left: 3%;
+    bottom: 16.5%;
+    left: 2%;
   }
 
   .top-wrap__left__ttl {
@@ -779,6 +787,10 @@ footer {
 
   .__inner {
     width: 90%;
+  }
+
+  .flow-wrap__body__block__txt h3 {
+    font-size: 1.5rem;
   }
 }
 
@@ -890,6 +902,10 @@ footer {
     height: 105px;
   }
 
+  .header-wrap__logo a h1 {
+    font-size: 1rem;
+  }
+
   .header-wrap__nav {
     width: 45%;
     margin-right: 2%;
@@ -920,7 +936,7 @@ footer {
   .top-wrap__left {
     position: absolute;
     bottom: 26.5%;
-    left: 1%;
+    left: 0.5%;
     width: 71%;
   }
 
@@ -936,7 +952,17 @@ footer {
 
   .top-wrap__left__ttl {
     margin-top: 2%;
-    margin-bottom: 2.5%;
+    margin-bottom: 2%;
+  }
+
+  .top-wrap__left__ttl p {
+    font-size: 0.75rem;
+  }
+
+  .top-wrap__left__ttl span {
+    display: inline-block;
+    line-height: 1.5;
+    padding-top: 1%;
   }
 
   .top-wrap__left__price {
@@ -1014,6 +1040,18 @@ footer {
     width: 100%;
     margin-top: 2%;
     margin-bottom: 3%;
+  }
+
+  .flow-wrap__body__block__txt h3 {
+    font-size: 1rem;
+  }
+
+  .faq-wrap__body__list__item__ttl::after,
+  .faq-wrap__body__list__item__ttl::before {
+    width: 2px;
+    height: 12px;
+    right: 0.25rem;
+    top: 0.2rem;
   }
 
   .con-wrap__con__form__block__input__one.__radio {
